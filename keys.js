@@ -1,10 +1,10 @@
 require('dotenv').config()
 module.exports = {
     database: {
-        host: process.env.HOST,
-        user: process.env.USER,
-        password: process.env.PASSWORD,
-        database: process.env.DATABASE,
-        port: process.env.PORT
+        host: "containers-us-west-80.railway.app",
+        user: "root",
+        password: "kWmzD0yPV0SWwItgyOFH",
+        database: "railway",
+        port: "5657"
     }
 }
