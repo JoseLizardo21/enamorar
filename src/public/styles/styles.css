@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(45deg, #4158D0 0%, #C850C0 72%);    
+}
+#tarjeta{
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgba(251, 251, 251, 0.646);
+    border-radius: 10px;
+    box-shadow: -8px 11px 29px -8px rgba(112,12,112,0.84);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tarjeta > h1{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Splash', cursive;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+#timidoImg{
+    width: 200px;
+}
+.divBtns{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btns{
+    width: 100px;
+    height: 40px;
+    border: white 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+#si{
+    background-color: rgb(0, 131, 0);
+}
+#no{
+    background-color: rgb(240, 25, 25);
+}
+#mensaje{
+    visibility: hidden;
+    width: 320px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.773);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mensaje > p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    margin: 0 10px 0 10px;
+}

@@ -1,0 +1,9 @@
+CREATE TABLE respuesta(
+    id INT(11) NOT NULL,
+    respuest VARCHAR(100)
+);
+ALTER TABLE respuesta
+    ADD PRIMARY KEY (id);
+
+ALTER TABLE respuesta
+    MODIFY id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 1;
