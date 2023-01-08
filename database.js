@@ -1,10 +1,11 @@
-const msyql = require('mysql');
+const msyql = require('mysql2');
 const {promisify} = require('util');
 const {database}= require('./keys');
 
 const pool = msyql.createPool(database);
 pool.getConnection((err, connection)=>{
     if(err){
+        console.log(err)
         console.log('Ocurrió un error en la conexión de la base de datos')
     }
     if(connection){
